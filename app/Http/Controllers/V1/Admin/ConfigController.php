@@ -43,7 +43,7 @@ class ConfigController extends Controller
             'subject' => 'This is v2board test email',
             'template_name' => 'notify',
             'template_value' => [
-                'name' => config('v2board.app_name', 'DaoTech'),
+                'name' => config('v2board.app_name', 'V2Board'),
                 'content' => 'This is v2board test email',
                 'url' => config('v2board.app_url')
             ]
@@ -88,8 +88,8 @@ class ConfigController extends Controller
                 'logo' => config('v2board.logo'),
                 'force_https' => (int)config('v2board.force_https', 0),
                 'stop_register' => (int)config('v2board.stop_register', 0),
-                'app_name' => config('v2board.app_name', 'DaoTech'),
-                'app_description' => config('v2board.app_description', 'DaoTech is best!'),
+                'app_name' => config('v2board.app_name', 'V2Board'),
+                'app_description' => config('v2board.app_description', 'V2Board is best!'),
                 'app_url' => config('v2board.app_url'),
                 'subscribe_url' => config('v2board.subscribe_url'),
                 'subscribe_path' => config('v2board.subscribe_path'),

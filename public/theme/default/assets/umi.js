@@ -23970,7 +23970,7 @@
                     href: "/"
                 }, i.a.createElement("span", {
                     className: "text-white-75"
-                }, window.settings.title ? window.settings.title : "DaoTech")), i.a.createElement("div", {
+                }, window.settings.title ? window.settings.title : "V2Board")), i.a.createElement("div", {
                     className: "d-lg-none"
                 }, i.a.createElement("a", {
                     className: "text-white ml-2",
@@ -23991,7 +23991,7 @@
                 }
                 ))), i.a.createElement("div", {
                     className: "v2board-copyright"
-                }, window.settings.title ? window.settings.title : "DaoTech", " v1.7.4"))
+                }, window.settings.title ? window.settings.title : "V2Board", " v1.7.4"))
             }
         }
         var f = Object(c["c"])(e=>{
@@ -35257,7 +35257,7 @@
                     src: window.settings.logo
                 }) : a.a.createElement("span", {
                     className: "text-dark"
-                }, window.settings.title || "DaoTech")), window.settings.description && a.a.createElement("p", {
+                }, window.settings.title || "V2Board")), window.settings.description && a.a.createElement("p", {
                     className: "font-size-sm text-muted mb-3"
                 }, window.settings.description)), a.a.createElement("div", {
                     className: "form-group"
@@ -35450,7 +35450,7 @@
                     src: window.settings.logo
                 }) : i.a.createElement("span", {
                     className: "text-dark"
-                }, window.settings.title || "DaoTech")), window.settings.description && i.a.createElement("p", {
+                }, window.settings.title || "V2Board")), window.settings.description && i.a.createElement("p", {
                     className: "font-size-sm text-muted mb-3"
                 }, window.settings.description)), o ? i.a.createElement("div", {
                     className: "content content-full text-center"
@@ -50034,7 +50034,7 @@
                     src: window.settings.logo
                 }) : i.a.createElement("span", {
                     className: "text-dark"
-                }, window.settings.title || "DaoTech")), window.settings.description && i.a.createElement("p", {
+                }, window.settings.title || "V2Board")), window.settings.description && i.a.createElement("p", {
                     className: "font-size-sm text-muted mb-3"
                 }, window.settings.description)), i.a.createElement("div", {
                     className: "form-group"

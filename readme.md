@@ -25,7 +25,7 @@
 
 最后进入后台重新保存主题： 主题配置-主题设置-确定
 
-# **DaoTech**
+# **V2Board**
 
 - PHP7.3+
 - Composer
@@ -43,7 +43,7 @@
 Thanks to the open source project license provided by [Jetbrains](https://www.jetbrains.com/)
 
 ## Community
-??Telegram Channel: [@v2board](https://t.me/v2board)  
+🔔Telegram Channel: [@v2board](https://t.me/v2board)  
 
 ## How to Feedback
 Follow the template in the issue to submit your question correctly, and we will have someone follow up with you.
