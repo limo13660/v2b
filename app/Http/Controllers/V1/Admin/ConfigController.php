@@ -10,6 +10,7 @@ use App\Utils\Dict;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\File;
+use Illuminate\Support\Facades\Cache;
 use Illuminate\Support\Facades\Mail;
 
 class ConfigController extends Controller
@@ -119,6 +120,7 @@ class ConfigController extends Controller
                 'server_token' => config('v2board.server_token'),
                 'server_pull_interval' => config('v2board.server_pull_interval', 60),
                 'server_push_interval' => config('v2board.server_push_interval', 60),
+                'device_limit_mode' => config('v2board.device_limit_mode', 0)
             ],
             'email' => [
                 'email_template' => config('v2board.email_template', 'default'),
@@ -196,6 +198,13 @@ class ConfigController extends Controller
             }
         }
         Artisan::call('config:cache');
+        if(Cache::has('WEBMANPID')) {
+            $pid = Cache::get('WEBMANPID');
+            Cache::forget('WEBMANPID');
+            return response([
+                'data' => posix_kill($pid, 15)
+            ]);
+        }
         return response([
             'data' => true
         ]);
