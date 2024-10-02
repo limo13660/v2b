@@ -72,7 +72,7 @@ class TicketService {
                 'template_value' => [
                     'name' => config('v2board.app_name', 'V2Board'),
                     'url' => config('v2board.app_url'),
-                    'content' => "主题：{$ticket->subject}\r\n回复内容：{$ticketMessage->message}"
+                    'content' => "主题：{$ticket->subject}\r\n回复内容：请回网站查看"
                 ]
             ]);
         }
